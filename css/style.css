@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; } .container{
+    max-width: 1100px;
+    height: 700px;
+    border: 1px solid #000;
+}
+.block{
+max-width: 300px;
+height: 300px;
+margin: 30px auto;
+border: 1px solid #000;
+position: relative;
+}
+.img1{
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+
+}
+.img2{
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.inputt{
+    z-index: 5;
+}
